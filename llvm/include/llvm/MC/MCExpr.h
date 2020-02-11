@@ -305,7 +305,12 @@ public:
     VK_AMDGPU_ABS32_HI,      // symbol@abs32@hi
 
     VK_TPREL,
-    VK_DTPREL
+    VK_DTPREL,
+    
+    VK_TRICORE_LO,
+    VK_TRICORE_HI,
+    VK_TRICORE_LO_OFFSET,
+    VK_TRICORE_HI_OFFSET
   };
 
 private:
